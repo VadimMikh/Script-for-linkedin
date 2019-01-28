@@ -7,10 +7,10 @@
 		}
 	    var foo = getRandomInt(10, 30);
 		setTimeout(function() {
-			var card = $('.mn-pymk-list__card');
+			var card = $('.mn-discovery-entity-card');
 		    if (i < card.length) {
 		    	var t = card[i];
-		        console.log($(t).find('.mn-person-info__name').text());
+		        console.log($(t).find('.mn-discovery-person-card__name').text());
 		        $(t).find('[data-control-name="invite"]').click();
 		    	i++;
 		    }
